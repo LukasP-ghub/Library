@@ -1,0 +1,17 @@
+{
+  "name": "zad-2-Library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Łukasz Pelczar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}

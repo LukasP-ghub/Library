@@ -507,10 +507,10 @@ class App extends _selectors.Selectors {
             authorElem.textContent = book.getAuthor();
             priorityElem.textContent = book.getReadPriority();
             categoryElem.textContent = book.getCategory();
-            titleElem.classList.add('title');
-            authorElem.classList.add('author');
-            priorityElem.classList.add('priority');
-            categoryElem.classList.add('category');
+            titleElem.classList.add('title', 'cell');
+            authorElem.classList.add('author', 'cell');
+            priorityElem.classList.add('priority', 'cell');
+            categoryElem.classList.add('category', 'cell');
             this.booksList.appendChild(titleElem);
             this.booksList.appendChild(authorElem);
             this.booksList.appendChild(priorityElem);

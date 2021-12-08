@@ -4,30 +4,47 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+}
+
 .bookList{
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-auto-flow: dense;
-  row-gap: .1em;
   max-width: 800px;
   margin: 5% auto;
 }
 
 .author{
   grid-column: 1/2;
+  border-left: 1px dotted gray;
 }
 .title{
   grid-column: 2/3;
 }
 .priority{
   grid-column: 3/4;
+  text-align: center;
 }
 .category{
   grid-column: 4/5;
+  border-right: 1px dotted gray;
 }
+
+.cell{
+  border-bottom: 1px dotted gray;
+  text-align: center;
+  padding: .1em 0;
+}
+
 .columnHeader{
   font-size: 1.3rem;
   font-weight: 700;
+  letter-spacing: .1em;
+  text-align: center;
+  border: 1px dotted gray;
+  padding: .1em 0;
 }
 
 .addBooks{

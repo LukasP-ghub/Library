@@ -1,2 +1,0 @@
-*{box-sizing:border-box;margin:0;padding:0}.bookList{display:grid;grid-auto-flow:dense;grid-template-columns:auto auto auto auto;margin:5% auto;max-width:800px;row-gap:.1em}.author{grid-column:1/2}.title{grid-column:2/3}.priority{grid-column:3/4}.category{grid-column:4/5}.columnHeader{font-size:1.3rem;font-weight:700}.addBooks{display:flex;flex-direction:column;gap:.5rem;margin:0 auto;max-width:200px}
-/*# sourceMappingURL=index.8c0ee31c.css.map */

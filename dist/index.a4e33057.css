@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bookList{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-flow: dense;
+  row-gap: .1em;
+  max-width: 800px;
+  margin: 5% auto;
+}
+
+.author{
+  grid-column: 1/2;
+}
+.title{
+  grid-column: 2/3;
+}
+.priority{
+  grid-column: 3/4;
+}
+.category{
+  grid-column: 4/5;
+}
+.columnHeader{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.addBooks{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 0 auto;
+  gap: .5rem;
+}
+/*# sourceMappingURL=index.a4e33057.css.map */

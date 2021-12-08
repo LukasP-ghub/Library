@@ -2,7 +2,7 @@
   "name": "zad-2-Library",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -12,5 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.0.1"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./docs"
+    }
   }
 }
